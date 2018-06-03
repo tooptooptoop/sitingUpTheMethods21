@@ -1,0 +1,56 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(revision a891cf0d267a1974d74e74169727b26e8e329338)
++++ app/src/main/res/layout/activity_main.xml	(date 1528008097641)
+@@ -14,16 +14,31 @@
+         android:text="Team A"
+         android:gravity="center_horizontal"
+         android:textSize="14sp"/>
++    <TextView
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:text="3"
++        android:gravity="center_horizontal"
++        android:textSize="14sp"/>
+     <Button
++        android:layout_marginBottom="8dp"
++        android:layout_marginLeft="24dp"
++        android:layout_marginRight="24dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="+3 POINTS"/>
+     <Button
++        android:layout_marginBottom="8dp"
++        android:layout_marginLeft="24dp"
++        android:layout_marginRight="24dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="+2 POINTS"/>
+     <Button
++        android:layout_marginBottom="8dp"
++        android:layout_marginLeft="24dp"
++        android:layout_marginRight="24dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+-        android:text="+1 POINTS"/>
++        android:text="FREE THROW"/>
+ </LinearLayout>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1528007482951)
++++ .idea/vcs.xml	(date 1528007482951)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
